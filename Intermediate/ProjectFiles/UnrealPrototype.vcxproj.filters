@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UnrealPrototype.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{18DEFAF9-2553-4651-9AFD-6B97F5DD2D01}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealPrototype.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UnrealPrototypeEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{9D583D72-50E2-4EAA-88E1-4CA616E2AC17}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\UnrealPrototype">
+			<UniqueIdentifier>{1E7534E0-0DD9-46E1-B3D6-988DDF07B070}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealPrototype\UnrealPrototype.Build.cs">
+			<Filter>Source\UnrealPrototype</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UnrealPrototype\UnrealPrototype.cpp">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealPrototype\UnrealPrototype.h">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealPrototype\UnrealPrototypeCharacter.cpp">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealPrototype\UnrealPrototypeCharacter.h">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealPrototype\UnrealPrototypeGameMode.cpp">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealPrototype\UnrealPrototypeGameMode.h">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealPrototype\UnrealPrototypeHUD.cpp">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealPrototype\UnrealPrototypeHUD.h">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealPrototype\UnrealPrototypeProjectile.cpp">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealPrototype\UnrealPrototypeProjectile.h">
+			<Filter>Source\UnrealPrototype</Filter>
+		</ClInclude >
+		<Filter Include="Source\UnrealPrototype\Resources">
+			<UniqueIdentifier>{C29F03F7-C599-4713-A741-C1B94B7327B6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\UnrealPrototype\Resources\Windows">
+			<UniqueIdentifier>{AA77BEA9-0851-416D-B621-49258EF79715}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealPrototype\Resources\Windows\UnrealPrototype.ico">
+			<Filter>Source\UnrealPrototype\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\UnrealPrototype\Resources\Windows\UnrealPrototype.rc">
+			<Filter>Source\UnrealPrototype\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
